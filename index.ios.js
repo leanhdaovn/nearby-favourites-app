@@ -12,6 +12,8 @@ import {
   View
 } from 'react-native';
 
+import RNGooglePlaces from 'react-native-google-places';
+
 export default class NearbyStarbucks extends Component {
   render() {
     return (

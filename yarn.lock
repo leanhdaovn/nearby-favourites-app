@@ -2931,6 +2931,10 @@ react-deep-force-update@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-1.0.1.tgz#f911b5be1d2a6fe387507dd6e9a767aa2924b4c7"
 
+react-native-google-places@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/react-native-google-places/-/react-native-google-places-2.0.6.tgz#e7b9a43be3c127e7e75615ed8e52347446bff3a1"
+
 react-native@0.41.2:
   version "0.41.2"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.41.2.tgz#c6f486b8450a9909e6fed2dfd2c2af946563bf4f"

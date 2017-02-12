@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E91F333C137EC43D01845171B29490A /* Pods-NearbyStarbucks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F312A273CE7702F27255930D88ED84 /* Pods-NearbyStarbucks-dummy.m */; };
+		79D2052A230711637F4DF173898CA519 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D0E9712FB277F869BBB22E02C60D19B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		EFB2B6E74FD8615FC90EFC82CE0F1F06 /* Pods-NearbyStarbucksTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 056FDB85C18B11CA894E883169630880 /* Pods-NearbyStarbucksTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		056FDB85C18B11CA894E883169630880 /* Pods-NearbyStarbucksTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NearbyStarbucksTests-dummy.m"; sourceTree = "<group>"; };
+		06A8672F8A12573DE59E6D05FAC53632 /* Pods-NearbyStarbucksTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NearbyStarbucksTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		07790BD46C0A51AE9AF086D8F62242CC /* GooglePlacePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlacePicker.framework; path = Frameworks/GooglePlacePicker.framework; sourceTree = "<group>"; };
+		0A5CA2A48DA980F07D0B0EAACD399D85 /* Pods-NearbyStarbucksTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NearbyStarbucksTests-frameworks.sh"; sourceTree = "<group>"; };
+		15DDAA6ADCE8D9C7F777774772239BEB /* Pods-NearbyStarbucksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NearbyStarbucksTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2091F396E3C0627FDF739037F51B0F43 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Subspecs/Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		2256E9F2E70DF4827A9AEAF412EDA15E /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Subspecs/Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		2CECB3A5D04F7556480EFC847C418A74 /* Pods-NearbyStarbucks-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NearbyStarbucks-acknowledgements.plist"; sourceTree = "<group>"; };
+		2DF17B5E7D5F87D48E5DDE49A1F859D1 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Subspecs/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		41E75C6BBA67799EDBE25C22907198A9 /* libPods-NearbyStarbucksTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NearbyStarbucksTests.a"; path = "libPods-NearbyStarbucksTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		595956CF84C0757FCC3000A1414742C2 /* Pods-NearbyStarbucks-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NearbyStarbucks-acknowledgements.markdown"; sourceTree = "<group>"; };
+		597619F797C425A0BF775CE3B522B48E /* Pods-NearbyStarbucks-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NearbyStarbucks-frameworks.sh"; sourceTree = "<group>"; };
+		65A6943655418F3590DBDC5DFD85554F /* Pods-NearbyStarbucksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NearbyStarbucksTests.release.xcconfig"; sourceTree = "<group>"; };
+		74B70147A64EA87FBB49D8E109B64F98 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Subspecs/Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		80F312A273CE7702F27255930D88ED84 /* Pods-NearbyStarbucks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NearbyStarbucks-dummy.m"; sourceTree = "<group>"; };
+		879475241E651927C072687C66729079 /* Pods-NearbyStarbucks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NearbyStarbucks.release.xcconfig"; sourceTree = "<group>"; };
+		8D0ADDECB10D4B514F8A13981DDED353 /* Pods-NearbyStarbucksTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NearbyStarbucksTests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		955D3A22EB34AB333524A949DC729F6B /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		B5DA8378CD31CF4ECC1B83F04DFCD284 /* Pods-NearbyStarbucksTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NearbyStarbucksTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA5C1566BA279DCA9B06ADEF0865822B /* libPods-NearbyStarbucks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NearbyStarbucks.a"; path = "libPods-NearbyStarbucks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C149B84B05F84D645321CAD28CCA4F6C /* Pods-NearbyStarbucks-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NearbyStarbucks-resources.sh"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F769EDE7CC5A77CDBE3B2309AF3BD5FA /* GooglePlacePicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlacePicker.bundle; path = Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle; sourceTree = "<group>"; };
+		F8567FFA809DD02B36CFB593922A14EA /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		F9BB1F6B3D11A499AF9BA780A03468BE /* Pods-NearbyStarbucks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NearbyStarbucks.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E5DC9314532CB8DD7A7A72E83ED6BB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E9712FB277F869BBB22E02C60D19B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2218A579CD197A50E39A2929D660CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D2052A230711637F4DF173898CA519 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		057612C31241123A1B53E2F8FEE23AB0 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				8BA44F82F96D164DA342FB09A0BEE150 /* Frameworks */,
+				9595338FF99D6E406412D70BB160C308 /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7A999BD5B4C2C01904FC59776164FBE1 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				E06B488730A4D2D60155C0F5B250113B /* Frameworks */,
+				A70C9D5B5ADE1DDE20CC891BF30AD31D /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C62832EC902B481843EFC870F9D95CC2 /* Pods */,
+				BC5D1A37498F6615659F1EEF86D9FE97 /* Products */,
+				A9E8FA90A11CA1E9A307A1AC068D2F8F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8BA44F82F96D164DA342FB09A0BEE150 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				955D3A22EB34AB333524A949DC729F6B /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D7452F072AE52572A3EDF54A4B20163 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74B70147A64EA87FBB49D8E109B64F98 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FFA7EAE118844748AD9685060A6B673 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8D7452F072AE52572A3EDF54A4B20163 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		9335B78F64E389AD6BD28E5033911D2C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F769EDE7CC5A77CDBE3B2309AF3BD5FA /* GooglePlacePicker.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9595338FF99D6E406412D70BB160C308 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8567FFA809DD02B36CFB593922A14EA /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9C0A1FBBD02B7528347BC7FB84DE24F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07790BD46C0A51AE9AF086D8F62242CC /* GooglePlacePicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A59A060C5F06F72CE1FDD91DBCC40385 /* Pods-NearbyStarbucksTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5DA8378CD31CF4ECC1B83F04DFCD284 /* Pods-NearbyStarbucksTests-acknowledgements.markdown */,
+				06A8672F8A12573DE59E6D05FAC53632 /* Pods-NearbyStarbucksTests-acknowledgements.plist */,
+				056FDB85C18B11CA894E883169630880 /* Pods-NearbyStarbucksTests-dummy.m */,
+				0A5CA2A48DA980F07D0B0EAACD399D85 /* Pods-NearbyStarbucksTests-frameworks.sh */,
+				8D0ADDECB10D4B514F8A13981DDED353 /* Pods-NearbyStarbucksTests-resources.sh */,
+				15DDAA6ADCE8D9C7F777774772239BEB /* Pods-NearbyStarbucksTests.debug.xcconfig */,
+				65A6943655418F3590DBDC5DFD85554F /* Pods-NearbyStarbucksTests.release.xcconfig */,
+			);
+			name = "Pods-NearbyStarbucksTests";
+			path = "Target Support Files/Pods-NearbyStarbucksTests";
+			sourceTree = "<group>";
+		};
+		A70C9D5B5ADE1DDE20CC891BF30AD31D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2DF17B5E7D5F87D48E5DDE49A1F859D1 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A9E8FA90A11CA1E9A307A1AC068D2F8F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC4C1E33B2B6AE9475525834A51B4233 /* Pods-NearbyStarbucks */,
+				A59A060C5F06F72CE1FDD91DBCC40385 /* Pods-NearbyStarbucksTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AC4C1E33B2B6AE9475525834A51B4233 /* Pods-NearbyStarbucks */ = {
+			isa = PBXGroup;
+			children = (
+				595956CF84C0757FCC3000A1414742C2 /* Pods-NearbyStarbucks-acknowledgements.markdown */,
+				2CECB3A5D04F7556480EFC847C418A74 /* Pods-NearbyStarbucks-acknowledgements.plist */,
+				80F312A273CE7702F27255930D88ED84 /* Pods-NearbyStarbucks-dummy.m */,
+				597619F797C425A0BF775CE3B522B48E /* Pods-NearbyStarbucks-frameworks.sh */,
+				C149B84B05F84D645321CAD28CCA4F6C /* Pods-NearbyStarbucks-resources.sh */,
+				F9BB1F6B3D11A499AF9BA780A03468BE /* Pods-NearbyStarbucks.debug.xcconfig */,
+				879475241E651927C072687C66729079 /* Pods-NearbyStarbucks.release.xcconfig */,
+			);
+			name = "Pods-NearbyStarbucks";
+			path = "Target Support Files/Pods-NearbyStarbucks";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC5D1A37498F6615659F1EEF86D9FE97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA5C1566BA279DCA9B06ADEF0865822B /* libPods-NearbyStarbucks.a */,
+				41E75C6BBA67799EDBE25C22907198A9 /* libPods-NearbyStarbucksTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C62832EC902B481843EFC870F9D95CC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5C0912CEC7444CFF51EFFE502270519 /* GoogleMaps */,
+				CCA175DF4D87459CA14C4E01BCFDEF95 /* GooglePlacePicker */,
+				057612C31241123A1B53E2F8FEE23AB0 /* GooglePlaces */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCA175DF4D87459CA14C4E01BCFDEF95 /* GooglePlacePicker */ = {
+			isa = PBXGroup;
+			children = (
+				9C0A1FBBD02B7528347BC7FB84DE24F5 /* Frameworks */,
+				9335B78F64E389AD6BD28E5033911D2C /* Resources */,
+			);
+			name = GooglePlacePicker;
+			path = GooglePlacePicker;
+			sourceTree = "<group>";
+		};
+		E06B488730A4D2D60155C0F5B250113B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2091F396E3C0627FDF739037F51B0F43 /* GoogleMaps.framework */,
+				2256E9F2E70DF4827A9AEAF412EDA15E /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5C0912CEC7444CFF51EFFE502270519 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				8FFA7EAE118844748AD9685060A6B673 /* Base */,
+				7A999BD5B4C2C01904FC59776164FBE1 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B727666BD0F70F5AE8832C2A5AAC4B0 /* Pods-NearbyStarbucks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F6941611F4EB9462C71D99E9A9E49C5 /* Build configuration list for PBXNativeTarget "Pods-NearbyStarbucks" */;
+			buildPhases = (
+				04FFCF7110C5B64E896880A5D9B0B84F /* Sources */,
+				0E5DC9314532CB8DD7A7A72E83ED6BB9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NearbyStarbucks";
+			productName = "Pods-NearbyStarbucks";
+			productReference = BA5C1566BA279DCA9B06ADEF0865822B /* libPods-NearbyStarbucks.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E7C6614183F6D50764D2F2A115C17D5F /* Pods-NearbyStarbucksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C226AAAB43F3DA579CFE50D8D5375615 /* Build configuration list for PBXNativeTarget "Pods-NearbyStarbucksTests" */;
+			buildPhases = (
+				8746E95C3B80141C6D1AAFF1A68ACB53 /* Sources */,
+				6D2218A579CD197A50E39A2929D660CC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NearbyStarbucksTests";
+			productName = "Pods-NearbyStarbucksTests";
+			productReference = 41E75C6BBA67799EDBE25C22907198A9 /* libPods-NearbyStarbucksTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BC5D1A37498F6615659F1EEF86D9FE97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B727666BD0F70F5AE8832C2A5AAC4B0 /* Pods-NearbyStarbucks */,
+				E7C6614183F6D50764D2F2A115C17D5F /* Pods-NearbyStarbucksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04FFCF7110C5B64E896880A5D9B0B84F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E91F333C137EC43D01845171B29490A /* Pods-NearbyStarbucks-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8746E95C3B80141C6D1AAFF1A68ACB53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB2B6E74FD8615FC90EFC82CE0F1F06 /* Pods-NearbyStarbucksTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1A37195C597124941A5BE6E9A79E0CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 879475241E651927C072687C66729079 /* Pods-NearbyStarbucks.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2E8CBF3DF50267842DFA4977E4C10AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15DDAA6ADCE8D9C7F777774772239BEB /* Pods-NearbyStarbucksTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A99E48FFE1BB0BD8F14B7252AEB563F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65A6943655418F3590DBDC5DFD85554F /* Pods-NearbyStarbucksTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DD546307C2F2780F4AD0A5946E65CB98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9BB1F6B3D11A499AF9BA780A03468BE /* Pods-NearbyStarbucks.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F6941611F4EB9462C71D99E9A9E49C5 /* Build configuration list for PBXNativeTarget "Pods-NearbyStarbucks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD546307C2F2780F4AD0A5946E65CB98 /* Debug */,
+				1A37195C597124941A5BE6E9A79E0CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C226AAAB43F3DA579CFE50D8D5375615 /* Build configuration list for PBXNativeTarget "Pods-NearbyStarbucksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E8CBF3DF50267842DFA4977E4C10AB1 /* Debug */,
+				A99E48FFE1BB0BD8F14B7252AEB563F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
