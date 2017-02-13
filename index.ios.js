@@ -17,14 +17,26 @@ import RNGooglePlaces from 'react-native-google-places';
 
 const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
 
+var placeCache = {};
+
 const loadPlaces = (lat, lng, callback) => {
-  var url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${lat},${lng}&name=starbucks&rankby=distance&key=AIzaSyAN0XX-AZzMOKnssHEBjnh8u-QwP9SqTLc`;
+  const cacheKey = `${lat},${lng}`;
+  var places = placeCache[cacheKey];
+
+  if (places) {
+    callback(places);
+    return;
+  }
+
+  console.log('load places');
+  const url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${lat},${lng}&name=starbucks&rankby=distance&key=AIzaSyAN0XX-AZzMOKnssHEBjnh8u-QwP9SqTLc`;
 
   fetch(url, {method: "GET"})
     .then((response) => response.json())
     .then((responseData) => {
-      var places = responseData.results;
+      places = responseData.results;
       callback(places);
+      placeCache[cacheKey] = places;
     })
     .done();
 }
@@ -47,43 +59,39 @@ export default class NearbyStarbucks extends Component {
     this.state = {
       places: ds.cloneWithRows([]),
       radius: 500,
-      selectedLocation: null
+      selectedLocation: null,
     };
 
     Linking.canOpenURL('comgooglemaps://').then(supported => {
       this.setState({googleMapsSupported: supported ? 'true' : 'fasle'})
     });
+
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        loadPlaces(position.coords.latitude, position.coords.longitude, (places) => {
+          this.setState({places: ds.cloneWithRows(places)});
+        })
+      },
+      (error) => console.log(error),
+      {enableHighAccuracy: true, timeout: 20000, maximumAge: 1000}
+    );
   }
 
   openSearchModal() {
     RNGooglePlaces.openAutocompleteModal()
     .then((place) => {
-        this.setState({
-          selectedLocation: place,
-          places: ds.cloneWithRows([])
-        })
+      loadPlaces(place.latitude, place.longitude, (places) => {
+        this.setState({places: ds.cloneWithRows(places)});
+      })
+      this.setState({
+        selectedLocation: place,
+        places: ds.cloneWithRows([])
+      })
     })
     .catch(error => { console.log(error) });  // error is a Javascript Error object
   }
 
   render() {
-    const selectedLocation = this.state.selectedLocation;
-    if (selectedLocation) {
-      loadPlaces(selectedLocation.latitude, selectedLocation.longitude, (places) => {
-        this.setState({places: ds.cloneWithRows(places)});
-      })
-    } else {
-      navigator.geolocation.getCurrentPosition(
-        (position) => {
-          loadPlaces(position.coords.latitude, position.coords.longitude, (places) => {
-            this.setState({places: ds.cloneWithRows(places)});
-          })
-        },
-        (error) => console.log(error),
-        {enableHighAccuracy: true, timeout: 20000, maximumAge: 1000}
-      );
-    }
-
     return (
       <View style={styles.container}>
         <StatusBar title="Nearby Starbucks Coffee" />
