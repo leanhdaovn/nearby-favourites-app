@@ -60,6 +60,7 @@ export default class NearbyStarbucks extends Component {
       places: ds.cloneWithRows([]),
       radius: 500,
       selectedLocation: null,
+      loading: true
     };
 
     Linking.canOpenURL('comgooglemaps://').then(supported => {
@@ -68,8 +69,9 @@ export default class NearbyStarbucks extends Component {
 
     navigator.geolocation.getCurrentPosition(
       (position) => {
+        this.setState({loading: true});
         loadPlaces(position.coords.latitude, position.coords.longitude, (places) => {
-          this.setState({places: ds.cloneWithRows(places)});
+          this.setState({places: ds.cloneWithRows(places), loading: false});
         })
       },
       (error) => console.log(error),
@@ -80,8 +82,9 @@ export default class NearbyStarbucks extends Component {
   openSearchModal() {
     RNGooglePlaces.openAutocompleteModal()
     .then((place) => {
+      this.setState({loading: true});
       loadPlaces(place.latitude, place.longitude, (places) => {
-        this.setState({places: ds.cloneWithRows(places)});
+        this.setState({places: ds.cloneWithRows(places), loading: false});
       })
       this.setState({
         selectedLocation: place,
@@ -96,6 +99,7 @@ export default class NearbyStarbucks extends Component {
       <View style={styles.container}>
         <StatusBar title="Nearby Starbucks Coffee" />
         <ActionButton title="Change Location" onPress={this.openSearchModal.bind(this)}/>
+        { this.state.loading ? <Text>Loading...</Text> : null }
         <ListView
           enableEmptySections={true}
           dataSource={this.state.places}
