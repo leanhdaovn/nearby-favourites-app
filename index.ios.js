@@ -99,7 +99,7 @@ export default class NearbyStarbucks extends Component {
       <View style={styles.container}>
         <StatusBar title="Nearby Starbucks Coffee" />
         <ActionButton title="Change Location" onPress={this.openSearchModal.bind(this)}/>
-        { this.state.loading ? <Text>Loading...</Text> : null }
+        { this.state.loading ? <Text style={styles.loadingText}>Loading...</Text> : null }
         <ListView
           enableEmptySections={true}
           dataSource={this.state.places}

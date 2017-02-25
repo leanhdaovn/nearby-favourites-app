@@ -55,6 +55,10 @@ var styles = StyleSheet.create({
     fontSize: 16,
     textAlign: 'center',
   },
+  loadingText: {
+    textAlign: 'center',
+    lineHeight: 22
+  },
   action: {
     backgroundColor: constants.actionColor,
     borderColor: 'transparent',
