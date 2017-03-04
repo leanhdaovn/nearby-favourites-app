@@ -20,6 +20,7 @@ var styles = StyleSheet.create({
     paddingLeft: 16,
     paddingTop: 14,
     paddingBottom: 16,
+    flexDirection: 'row',
   },
   liContainer: {
     flex: 2,
