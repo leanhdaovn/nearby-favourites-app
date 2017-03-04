@@ -1,8 +1,7 @@
 import React from 'react';
 import { Text, View, TouchableHighlight, Linking, Image } from 'react-native';
 import styles, { constants } from '../styles';
-import PlaceImage from './PlaceImage';
-import PlaceShortInfo from './PlaceShortInfo';
+import ListItem from './ListItem';
 
 const onPlacePress = (place) => {
   Linking.canOpenURL('comgooglemaps://').then(supported => {
@@ -17,12 +16,7 @@ const onPlacePress = (place) => {
 };
 
 const PlaceListItem = ({place}) => (
-  <TouchableHighlight onPress={() => onPlacePress(place)}>
-    <View style={styles.li}>
-      <PlaceImage place={place}/>
-      <PlaceShortInfo place={place}/>
-    </View>
-  </TouchableHighlight>
+  <ListItem place={place} onPress={() => onPlacePress(place)} />
 )
 
 export default PlaceListItem;

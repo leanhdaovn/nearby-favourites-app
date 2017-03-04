@@ -2,7 +2,7 @@ import React, { Component} from 'react';
 import { AppRegistry, View } from 'react-native';
 import StatusBar from './components/StatusBar';
 import ChangeLocationActionButton from './components/ChangeLocationActionButton';
-import PlaceListView from './components/PlaceListView';
+import PlacesListView from './components/PlacesListView';
 import styles from './styles'
 
 export default class NearbyStarbucks extends Component {
@@ -24,7 +24,7 @@ export default class NearbyStarbucks extends Component {
             })
           }}
         />
-        <PlaceListView selectedLocation={this.state.selectedLocation}/>
+        <PlacesListView selectedLocation={this.state.selectedLocation}/>
       </View>
     );
   }

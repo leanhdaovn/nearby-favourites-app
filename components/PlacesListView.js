@@ -1,12 +1,12 @@
 import React, { Component} from 'react';
 import { View, Text, ListView, Linking } from 'react-native';
-import PlaceListItem from './PlaceListItem';
-import styles from '../styles';
+import ListViewWithLoading from './ListViewWithLoading';
+import SamplePlaces from '../SamplePlaces';
 
 const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
 var placeCache = {};
 
-class PlaceListView extends Component {
+class PlacesListView extends Component {
   loadPlaces = (lat, lng) => {
     this.setState({places: ds.cloneWithRows([]), loading: true})
     const cacheKey = `${lat},${lng}`;
@@ -48,10 +48,10 @@ class PlaceListView extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      places: ds.cloneWithRows([]),
-      loading: true
+      places: ds.cloneWithRows(SamplePlaces),
+      loading: false
     };
-    this.loadPlacesNearby(props.selectedLocation);
+    // this.loadPlacesNearby(props.selectedLocation);
   }
 
   componentWillReceiveProps(nextProps) {
@@ -62,19 +62,9 @@ class PlaceListView extends Component {
 
   render() {
     return (
-      <View>
-        { this.state.loading ? <Text style={styles.loadingText}>Loading...</Text> : null }
-        <ListView
-          enableEmptySections={true}
-          dataSource={this.state.places}
-          renderRow={(place) => (
-            <PlaceListItem place={place} />
-          )}
-          styles={styles.listView}
-        />
-      </View>
+      <ListViewWithLoading places={this.state.places} loading={this.state.loading}/>
     )
   }
 }
 
-export default PlaceListView;
+export default PlacesListView;
