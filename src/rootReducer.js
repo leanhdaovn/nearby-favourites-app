@@ -6,15 +6,12 @@ import reduceReducers from 'reduce-reducers';
 // import { changeSuburbReducer } from './SuburbSelect/state';
 // import { usersReducer, suburbsReducer } from './reducers';
 
-const reducer = (state = {}, action) => {
-  return state;
+const apiReducer = (state, action) => {
+  return state || {
+    googleApiKey: 'AIzaSyAN0XX-AZzMOKnssHEBjnh8u-QwP9SqTLc'
+  };
 };
 
 export default combineReducers({
-  // [searchStringPath]: userFilterReducer,
-  // users: usersReducer,
-  // suburbs: suburbsReducer,
-  // form: formReducer,
-  // suburb: changeSuburbReducer,
-  places: reducer
+  api: apiReducer
 });

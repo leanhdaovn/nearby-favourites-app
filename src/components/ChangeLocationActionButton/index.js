@@ -11,13 +11,11 @@ const openSearchModal = (callback) => {
   .catch(error => { console.log(error) });  // error is a Javascript Error object
 }
 
-const mergeProps = (stateProps, dispatchProps, ownProps) => {
-  return Object.assign({
-    title: 'Change Location',
-    onPress: () => openSearchModal(onPlaceReturn)
-  }, stateProps, dispatchProps, ownProps);
-}
+const mapStateToProps = (state, {onPlaceReturn}) => ({
+  title: 'Change Location',
+  onPress: () => openSearchModal(onPlaceReturn)
+});
 
-const ChangeLocationActionButton = connect(null, null, mergeProps)(ActionButton);
+const ChangeLocationActionButton = connect(mapStateToProps)(ActionButton);
 
 export default ChangeLocationActionButton;
