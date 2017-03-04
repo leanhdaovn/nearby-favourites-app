@@ -1,7 +1,7 @@
 import React from 'react';
-import { Text, View, TouchableHighlight, Linking, Image } from 'react-native';
-import styles, { constants } from '../styles';
-import ListItem from './ListItem';
+import { connect } from 'react-redux';
+import { Linking } from 'react-native';
+import PlaceListItemPresentation from './PlaceListItemPresentation';
 
 const onPlacePress = (place) => {
   Linking.canOpenURL('comgooglemaps://').then(supported => {
@@ -15,8 +15,12 @@ const onPlacePress = (place) => {
   });
 };
 
-const PlaceListItem = ({place}) => (
-  <ListItem place={place} onPress={() => onPlacePress(place)} />
-)
+const mergeProps = (stateProps, dispatchProps, ownProps) => {
+  return Object.assign({
+    onPress: () => onPlacePress(place)
+  }, ownProps, stateProps, dispatchProps);
+};
+
+const PlaceListItem = connect(null, null, mergeProps)(PlaceListItemPresentation);
 
 export default PlaceListItem;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, View } from 'react-native';
-import styles, { constants } from '../styles';
+import styles from '../../styles';
 
 const PlaceShortInfo = ({place}) => (
   <View style={{marginLeft: 10}}>

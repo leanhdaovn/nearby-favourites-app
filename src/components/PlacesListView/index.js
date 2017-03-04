@@ -1,7 +1,7 @@
 import React, { Component} from 'react';
 import { View, Text, ListView, Linking } from 'react-native';
-import ListViewWithLoading from './ListViewWithLoading';
-import SamplePlaces from '../SamplePlaces';
+import ListViewWithLoading from '../ListViewWithLoading';
+import SamplePlaces from '../../SamplePlaces';
 
 const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
 var placeCache = {};

@@ -1,10 +1,10 @@
 import React from 'react';
 import { View, TouchableHighlight } from 'react-native';
-import styles from '../styles';
-import PlaceImage from './PlaceImage';
+import styles from '../../styles';
+import PlaceImage from '../PlaceImage';
 import PlaceShortInfo from './PlaceShortInfo';
 
-const ListItem = ({place, onPress}) => (
+const PlaceListItemPresentation = ({place, onPress}) => (
   <TouchableHighlight onPress={onPress}>
     <View style={styles.li}>
       <PlaceImage place={place}/>
@@ -13,4 +13,4 @@ const ListItem = ({place, onPress}) => (
   </TouchableHighlight>
 )
 
-export default ListItem;
+export default PlaceListItemPresentation;

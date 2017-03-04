@@ -1,5 +1,6 @@
 import React from 'react';
 import { Image } from 'react-native';
+import { connect } from 'react-redux';
 
 const placePhotoUrl = (place) => {
   const photo = place.photos ? place.photos[0] : null;
@@ -8,11 +9,13 @@ const placePhotoUrl = (place) => {
   return url;
 };
 
-const PlaceImage = ({place}) => (
-  <Image
-    style={{width: 100, height: 80}}
-    source={{uri: placePhotoUrl(place)}}
-  />
-)
+const mergeProps = (stateProps, dispatchProps, ownProps) => {
+  return Object.assign({
+    style: {width: 100, height: 80},
+    source: {uri: placePhotoUrl(ownProps.place)}
+  }, stateProps, dispatchProps, ownProps);
+}
+
+const PlaceImage = connect(null, null, mergeProps)(Image);
 
 export default PlaceImage;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, TouchableHighlight } from 'react-native';
-import styles from '../styles';
+import styles from '../../styles';
 
 const StatusBar = ({title}) => (
   <View>

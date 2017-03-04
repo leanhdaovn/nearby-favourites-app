@@ -1,33 +1,7 @@
-import React, { Component} from 'react';
-import { AppRegistry, View } from 'react-native';
-import StatusBar from './components/StatusBar';
-import ChangeLocationActionButton from './components/ChangeLocationActionButton';
-import PlacesListView from './components/PlacesListView';
-import styles from './styles'
+import React from 'react';
+import { AppRegistry } from 'react-native';
+import App from './src/App';
 
-export default class NearbyStarbucks extends Component {
-  constructor() {
-    super();
-    this.state = {
-      selectedLocation: null
-    };
-  }
-
-  render() {
-    return (
-      <View style={styles.container}>
-        <StatusBar title="Nearby Starbucks Coffee" />
-        <ChangeLocationActionButton
-          onPlaceReturn={(place) => {
-            this.setState({
-              selectedLocation: place
-            })
-          }}
-        />
-        <PlacesListView selectedLocation={this.state.selectedLocation}/>
-      </View>
-    );
-  }
-}
+const NearbyStarbucks = () => (<App />);
 
 AppRegistry.registerComponent('NearbyStarbucks', () => NearbyStarbucks);

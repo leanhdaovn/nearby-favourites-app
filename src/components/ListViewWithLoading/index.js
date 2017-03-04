@@ -1,7 +1,7 @@
 import React, { Component} from 'react';
 import { View, Text, ListView } from 'react-native';
-import PlaceListItem from './PlaceListItem';
-import styles from '../styles';
+import PlaceListItem from '../PlaceListItem';
+import styles from '../../styles';
 
 const ListViewWithLoading = ({places, loading}) => (
   <View>
