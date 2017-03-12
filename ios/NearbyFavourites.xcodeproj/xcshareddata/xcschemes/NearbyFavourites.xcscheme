@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
+   LastUpgradeVersion = "0620"
    version = "1.3">
    <BuildAction
-      parallelizeBuildables = "NO"
+      parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
@@ -14,24 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D2A28121D9B038B00D4039D"
-               BuildableName = "libReact-tvOS.a"
-               BlueprintName = "React-tvOS"
-               ReferencedContainer = "container:../node_modules/react-native/React/React.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "NearbyStarbucks-tvOS.app"
-               BlueprintName = "NearbyStarbucks-tvOS"
-               ReferencedContainer = "container:NearbyStarbucks.xcodeproj">
+               BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+               BuildableName = "NearbyFavourites.app"
+               BlueprintName = "NearbyFavourites"
+               ReferencedContainer = "container:NearbyFavourites.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -42,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "NearbyStarbucks-tvOSTests.xctest"
-               BlueprintName = "NearbyStarbucks-tvOSTests"
-               ReferencedContainer = "container:NearbyStarbucks.xcodeproj">
+               BlueprintIdentifier = "00E356ED1AD99517003FC87E"
+               BuildableName = "NearbyFavouritesTests.xctest"
+               BlueprintName = "NearbyFavouritesTests"
+               ReferencedContainer = "container:NearbyFavourites.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -60,27 +46,27 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "NearbyStarbucks-tvOSTests.xctest"
-               BlueprintName = "NearbyStarbucks-tvOSTests"
-               ReferencedContainer = "container:NearbyStarbucks.xcodeproj">
+               BlueprintIdentifier = "00E356ED1AD99517003FC87E"
+               BuildableName = "NearbyFavouritesTests.xctest"
+               BlueprintName = "NearbyFavouritesTests"
+               ReferencedContainer = "container:NearbyFavourites.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "NearbyStarbucks-tvOS.app"
-            BlueprintName = "NearbyStarbucks-tvOS"
-            ReferencedContainer = "container:NearbyStarbucks.xcodeproj">
+            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+            BuildableName = "NearbyFavourites.app"
+            BlueprintName = "NearbyFavourites"
+            ReferencedContainer = "container:NearbyFavourites.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -93,10 +79,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "NearbyStarbucks-tvOS.app"
-            BlueprintName = "NearbyStarbucks-tvOS"
-            ReferencedContainer = "container:NearbyStarbucks.xcodeproj">
+            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+            BuildableName = "NearbyFavourites.app"
+            BlueprintName = "NearbyFavourites"
+            ReferencedContainer = "container:NearbyFavourites.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -112,10 +98,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "NearbyStarbucks-tvOS.app"
-            BlueprintName = "NearbyStarbucks-tvOS"
-            ReferencedContainer = "container:NearbyStarbucks.xcodeproj">
+            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+            BuildableName = "NearbyFavourites.app"
+            BlueprintName = "NearbyFavourites"
+            ReferencedContainer = "container:NearbyFavourites.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

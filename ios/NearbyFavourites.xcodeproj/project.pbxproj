@@ -12,7 +12,7 @@
 		00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
-		00E356F31AD99517003FC87E /* NearbyStarbucksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* NearbyStarbucksTests.m */; };
+		00E356F31AD99517003FC87E /* NearbyFavouritesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* NearbyFavouritesTests.m */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
@@ -24,8 +24,8 @@
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		B4BD398DF525461E962D0DDD /* libRNGooglePlaces.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D2629D612546A3A054A0F5 /* libRNGooglePlaces.a */; };
-		DC381BA7E2D925A8680FAD14 /* libPods-NearbyStarbucksTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA4A72F40BD0BC9E30D1C77 /* libPods-NearbyStarbucksTests.a */; };
-		F1C7A883DB1A7342B886FDDD /* libPods-NearbyStarbucks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C75780F31578184D16908824 /* libPods-NearbyStarbucks.a */; };
+		DC381BA7E2D925A8680FAD14 /* libPods-NearbyFavouritesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA4A72F40BD0BC9E30D1C77 /* libPods-NearbyFavouritesTests.a */; };
+		F1C7A883DB1A7342B886FDDD /* libPods-NearbyFavourites.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C75780F31578184D16908824 /* libPods-NearbyFavourites.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +69,7 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = NearbyStarbucks;
+			remoteInfo = NearbyFavourites;
 		};
 		139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -185,29 +185,29 @@
 		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
 		00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
 		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* NearbyStarbucksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearbyStarbucksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* NearbyFavouritesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearbyFavouritesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* NearbyStarbucksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NearbyStarbucksTests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* NearbyFavouritesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NearbyFavouritesTests.m; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* NearbyStarbucks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearbyStarbucks.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = NearbyStarbucks/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = NearbyStarbucks/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NearbyStarbucks/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = NearbyStarbucks/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = NearbyStarbucks/main.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* NearbyFavourites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearbyFavourites.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = NearbyFavourites/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = NearbyFavourites/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NearbyFavourites/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = NearbyFavourites/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = NearbyFavourites/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		2D0EF01B4F2545B5B4FCC1A3 /* RNGooglePlaces.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNGooglePlaces.xcodeproj; path = "../node_modules/react-native-google-places/ios/RNGooglePlaces.xcodeproj"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		61D2629D612546A3A054A0F5 /* libRNGooglePlaces.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNGooglePlaces.a; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		C75780F31578184D16908824 /* libPods-NearbyStarbucks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NearbyStarbucks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCA4A72F40BD0BC9E30D1C77 /* libPods-NearbyStarbucksTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NearbyStarbucksTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D181FA3E15988D8D03254CA5 /* Pods-NearbyStarbucks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyStarbucks.release.xcconfig"; path = "Pods/Target Support Files/Pods-NearbyStarbucks/Pods-NearbyStarbucks.release.xcconfig"; sourceTree = "<group>"; };
-		DC5161D9F01F969D205F85C5 /* Pods-NearbyStarbucks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyStarbucks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NearbyStarbucks/Pods-NearbyStarbucks.debug.xcconfig"; sourceTree = "<group>"; };
-		EFCAB1B85628C59D868556D9 /* Pods-NearbyStarbucksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyStarbucksTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NearbyStarbucksTests/Pods-NearbyStarbucksTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F3F4A9D6B5F9BF611041FBC6 /* Pods-NearbyStarbucksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyStarbucksTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NearbyStarbucksTests/Pods-NearbyStarbucksTests.release.xcconfig"; sourceTree = "<group>"; };
+		C75780F31578184D16908824 /* libPods-NearbyFavourites.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NearbyFavourites.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA4A72F40BD0BC9E30D1C77 /* libPods-NearbyFavouritesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NearbyFavouritesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D181FA3E15988D8D03254CA5 /* Pods-NearbyFavourites.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyFavourites.release.xcconfig"; path = "Pods/Target Support Files/Pods-NearbyFavourites/Pods-NearbyFavourites.release.xcconfig"; sourceTree = "<group>"; };
+		DC5161D9F01F969D205F85C5 /* Pods-NearbyFavourites.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyFavourites.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NearbyFavourites/Pods-NearbyFavourites.debug.xcconfig"; sourceTree = "<group>"; };
+		EFCAB1B85628C59D868556D9 /* Pods-NearbyFavouritesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyFavouritesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NearbyFavouritesTests/Pods-NearbyFavouritesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3F4A9D6B5F9BF611041FBC6 /* Pods-NearbyFavouritesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearbyFavouritesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NearbyFavouritesTests/Pods-NearbyFavouritesTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,7 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
-				DC381BA7E2D925A8680FAD14 /* libPods-NearbyStarbucksTests.a in Frameworks */,
+				DC381BA7E2D925A8680FAD14 /* libPods-NearbyFavouritesTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,7 +236,7 @@
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				B4BD398DF525461E962D0DDD /* libRNGooglePlaces.a in Frameworks */,
-				F1C7A883DB1A7342B886FDDD /* libPods-NearbyStarbucks.a in Frameworks */,
+				F1C7A883DB1A7342B886FDDD /* libPods-NearbyFavourites.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,13 +285,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00E356EF1AD99517003FC87E /* NearbyStarbucksTests */ = {
+		00E356EF1AD99517003FC87E /* NearbyFavouritesTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* NearbyStarbucksTests.m */,
+				00E356F21AD99517003FC87E /* NearbyFavouritesTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = NearbyStarbucksTests;
+			path = NearbyFavouritesTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -320,7 +320,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* NearbyStarbucks */ = {
+		13B07FAE1A68108700A75B9A /* NearbyFavourites */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -330,7 +330,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = NearbyStarbucks;
+			name = NearbyFavourites;
 			sourceTree = "<group>";
 		};
 		146834001AC3E56700842450 /* Products */ = {
@@ -345,8 +345,8 @@
 		1C9BAC30E7A8D9A3C3675570 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C75780F31578184D16908824 /* libPods-NearbyStarbucks.a */,
-				CCA4A72F40BD0BC9E30D1C77 /* libPods-NearbyStarbucksTests.a */,
+				C75780F31578184D16908824 /* libPods-NearbyFavourites.a */,
+				CCA4A72F40BD0BC9E30D1C77 /* libPods-NearbyFavouritesTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -408,9 +408,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* NearbyStarbucks */,
+				13B07FAE1A68108700A75B9A /* NearbyFavourites */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* NearbyStarbucksTests */,
+				00E356EF1AD99517003FC87E /* NearbyFavouritesTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				E5D0DDA2677295BFB55BE790 /* Pods */,
 				1C9BAC30E7A8D9A3C3675570 /* Frameworks */,
@@ -422,8 +422,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* NearbyStarbucks.app */,
-				00E356EE1AD99517003FC87E /* NearbyStarbucksTests.xctest */,
+				13B07F961A680F5B00A75B9A /* NearbyFavourites.app */,
+				00E356EE1AD99517003FC87E /* NearbyFavouritesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -431,10 +431,10 @@
 		E5D0DDA2677295BFB55BE790 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DC5161D9F01F969D205F85C5 /* Pods-NearbyStarbucks.debug.xcconfig */,
-				D181FA3E15988D8D03254CA5 /* Pods-NearbyStarbucks.release.xcconfig */,
-				EFCAB1B85628C59D868556D9 /* Pods-NearbyStarbucksTests.debug.xcconfig */,
-				F3F4A9D6B5F9BF611041FBC6 /* Pods-NearbyStarbucksTests.release.xcconfig */,
+				DC5161D9F01F969D205F85C5 /* Pods-NearbyFavourites.debug.xcconfig */,
+				D181FA3E15988D8D03254CA5 /* Pods-NearbyFavourites.release.xcconfig */,
+				EFCAB1B85628C59D868556D9 /* Pods-NearbyFavouritesTests.debug.xcconfig */,
+				F3F4A9D6B5F9BF611041FBC6 /* Pods-NearbyFavouritesTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -442,9 +442,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* NearbyStarbucksTests */ = {
+		00E356ED1AD99517003FC87E /* NearbyFavouritesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "NearbyStarbucksTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "NearbyFavouritesTests" */;
 			buildPhases = (
 				4D1539F32B3E44F28024AAA3 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -458,14 +458,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = NearbyStarbucksTests;
-			productName = NearbyStarbucksTests;
-			productReference = 00E356EE1AD99517003FC87E /* NearbyStarbucksTests.xctest */;
+			name = NearbyFavouritesTests;
+			productName = NearbyFavouritesTests;
+			productReference = 00E356EE1AD99517003FC87E /* NearbyFavouritesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* NearbyStarbucks */ = {
+		13B07F861A680F5B00A75B9A /* NearbyFavourites */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "NearbyStarbucks" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "NearbyFavourites" */;
 			buildPhases = (
 				53056E50BB6BCB229BCA58AD /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -479,9 +479,9 @@
 			);
 			dependencies = (
 			);
-			name = NearbyStarbucks;
+			name = NearbyFavourites;
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* NearbyStarbucks.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* NearbyFavourites.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -503,7 +503,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "NearbyStarbucks" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "NearbyFavourites" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -566,8 +566,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* NearbyStarbucks */,
-				00E356ED1AD99517003FC87E /* NearbyStarbucksTests */,
+				13B07F861A680F5B00A75B9A /* NearbyFavourites */,
+				00E356ED1AD99517003FC87E /* NearbyFavouritesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -760,7 +760,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NearbyStarbucks/Pods-NearbyStarbucks-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NearbyFavourites/Pods-NearbyFavourites-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4D1539F32B3E44F28024AAA3 /* [CP] Check Pods Manifest.lock */ = {
@@ -805,7 +805,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NearbyStarbucksTests/Pods-NearbyStarbucksTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NearbyFavouritesTests/Pods-NearbyFavouritesTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E75FD0000742CD3F5FA604C3 /* [CP] Embed Pods Frameworks */ = {
@@ -820,7 +820,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NearbyStarbucksTests/Pods-NearbyStarbucksTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NearbyFavouritesTests/Pods-NearbyFavouritesTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E813745AA6981BF8331E7AE6 /* [CP] Embed Pods Frameworks */ = {
@@ -835,7 +835,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NearbyStarbucks/Pods-NearbyStarbucks-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NearbyFavourites/Pods-NearbyFavourites-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -845,7 +845,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* NearbyStarbucksTests.m in Sources */,
+				00E356F31AD99517003FC87E /* NearbyFavouritesTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -863,7 +863,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* NearbyStarbucks */;
+			target = 13B07F861A680F5B00A75B9A /* NearbyFavourites */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -871,7 +871,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFCAB1B85628C59D868556D9 /* Pods-NearbyStarbucksTests.debug.xcconfig */;
+			baseConfigurationReference = EFCAB1B85628C59D868556D9 /* Pods-NearbyFavouritesTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Dao Le (EJN99T9M88)";
@@ -880,7 +880,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = NearbyStarbucksTests/Info.plist;
+				INFOPLIST_FILE = NearbyFavouritesTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -888,21 +888,21 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				MODULE_NAME = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.leanhdao.nearbystarbucks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leanhdao.NearbyFavourites;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearbyStarbucks.app/NearbyStarbucks";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearbyFavourites.app/NearbyFavourites";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3F4A9D6B5F9BF611041FBC6 /* Pods-NearbyStarbucksTests.release.xcconfig */;
+			baseConfigurationReference = F3F4A9D6B5F9BF611041FBC6 /* Pods-NearbyFavouritesTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Dao Le (EJN99T9M88)";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = LAZ823SUN6;
-				INFOPLIST_FILE = NearbyStarbucksTests/Info.plist;
+				INFOPLIST_FILE = NearbyFavouritesTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -910,51 +910,51 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				MODULE_NAME = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.leanhdao.nearbystarbucks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leanhdao.NearbyFavourites;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearbyStarbucks.app/NearbyStarbucks";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearbyFavourites.app/NearbyFavourites";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC5161D9F01F969D205F85C5 /* Pods-NearbyStarbucks.debug.xcconfig */;
+			baseConfigurationReference = DC5161D9F01F969D205F85C5 /* Pods-NearbyFavourites.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = LAZ823SUN6;
-				INFOPLIST_FILE = NearbyStarbucks/Info.plist;
+				INFOPLIST_FILE = NearbyFavourites/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.leanhdao.nearbystarbucks;
-				PRODUCT_NAME = NearbyStarbucks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leanhdao.NearbyFavourites;
+				PRODUCT_NAME = NearbyFavourites;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D181FA3E15988D8D03254CA5 /* Pods-NearbyStarbucks.release.xcconfig */;
+			baseConfigurationReference = D181FA3E15988D8D03254CA5 /* Pods-NearbyFavourites.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LAZ823SUN6;
-				INFOPLIST_FILE = NearbyStarbucks/Info.plist;
+				INFOPLIST_FILE = NearbyFavourites/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.leanhdao.nearbystarbucks;
-				PRODUCT_NAME = NearbyStarbucks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leanhdao.NearbyFavourites;
+				PRODUCT_NAME = NearbyFavourites;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -1050,7 +1050,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "NearbyStarbucksTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "NearbyFavouritesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1059,7 +1059,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "NearbyStarbucks" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "NearbyFavourites" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1068,7 +1068,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "NearbyStarbucks" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "NearbyFavourites" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

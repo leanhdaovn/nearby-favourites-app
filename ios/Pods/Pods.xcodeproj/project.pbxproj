@@ -7,55 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E91F333C137EC43D01845171B29490A /* Pods-NearbyStarbucks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F312A273CE7702F27255930D88ED84 /* Pods-NearbyStarbucks-dummy.m */; };
-		79D2052A230711637F4DF173898CA519 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		D0E9712FB277F869BBB22E02C60D19B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		EFB2B6E74FD8615FC90EFC82CE0F1F06 /* Pods-NearbyStarbucksTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 056FDB85C18B11CA894E883169630880 /* Pods-NearbyStarbucksTests-dummy.m */; };
+		4D8230B999357BEC7D3B5DC1E147FAC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		88592174129F5A9D2F237D3981E6F5BD /* Pods-NearbyFavouritesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96360A02A2394D7E30EC6715A0CB1A02 /* Pods-NearbyFavouritesTests-dummy.m */; };
+		DCCDF545C2A9E52584A43859047D406E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		DF1C73CB9EB6D155D52403E9164E1D2C /* Pods-NearbyFavourites-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32172E573EDE9683BFBDC22B2B9B442D /* Pods-NearbyFavourites-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		056FDB85C18B11CA894E883169630880 /* Pods-NearbyStarbucksTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NearbyStarbucksTests-dummy.m"; sourceTree = "<group>"; };
-		06A8672F8A12573DE59E6D05FAC53632 /* Pods-NearbyStarbucksTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NearbyStarbucksTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		07790BD46C0A51AE9AF086D8F62242CC /* GooglePlacePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlacePicker.framework; path = Frameworks/GooglePlacePicker.framework; sourceTree = "<group>"; };
-		0A5CA2A48DA980F07D0B0EAACD399D85 /* Pods-NearbyStarbucksTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NearbyStarbucksTests-frameworks.sh"; sourceTree = "<group>"; };
-		15DDAA6ADCE8D9C7F777774772239BEB /* Pods-NearbyStarbucksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NearbyStarbucksTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2091F396E3C0627FDF739037F51B0F43 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Subspecs/Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		2256E9F2E70DF4827A9AEAF412EDA15E /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Subspecs/Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
-		2CECB3A5D04F7556480EFC847C418A74 /* Pods-NearbyStarbucks-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NearbyStarbucks-acknowledgements.plist"; sourceTree = "<group>"; };
 		2DF17B5E7D5F87D48E5DDE49A1F859D1 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Subspecs/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
-		41E75C6BBA67799EDBE25C22907198A9 /* libPods-NearbyStarbucksTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NearbyStarbucksTests.a"; path = "libPods-NearbyStarbucksTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		595956CF84C0757FCC3000A1414742C2 /* Pods-NearbyStarbucks-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NearbyStarbucks-acknowledgements.markdown"; sourceTree = "<group>"; };
-		597619F797C425A0BF775CE3B522B48E /* Pods-NearbyStarbucks-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NearbyStarbucks-frameworks.sh"; sourceTree = "<group>"; };
-		65A6943655418F3590DBDC5DFD85554F /* Pods-NearbyStarbucksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NearbyStarbucksTests.release.xcconfig"; sourceTree = "<group>"; };
+		3053B5FF1D74A9E82116B4B72940E3FE /* Pods-NearbyFavouritesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NearbyFavouritesTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		31B71F85235EA38CCA3A9DD52F6509A2 /* Pods-NearbyFavouritesTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NearbyFavouritesTests-frameworks.sh"; sourceTree = "<group>"; };
+		32172E573EDE9683BFBDC22B2B9B442D /* Pods-NearbyFavourites-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NearbyFavourites-dummy.m"; sourceTree = "<group>"; };
+		36BAB9458EE4B833E1DE301F5133871B /* Pods-NearbyFavourites-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NearbyFavourites-resources.sh"; sourceTree = "<group>"; };
+		4996CFC33ECFFE1881990C7146722AFA /* Pods-NearbyFavourites-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NearbyFavourites-acknowledgements.plist"; sourceTree = "<group>"; };
+		6D3ABE87DDF68F3B65B9D17A1D000D8D /* libPods-NearbyFavourites.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NearbyFavourites.a"; path = "libPods-NearbyFavourites.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B70147A64EA87FBB49D8E109B64F98 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Subspecs/Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
-		80F312A273CE7702F27255930D88ED84 /* Pods-NearbyStarbucks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NearbyStarbucks-dummy.m"; sourceTree = "<group>"; };
-		879475241E651927C072687C66729079 /* Pods-NearbyStarbucks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NearbyStarbucks.release.xcconfig"; sourceTree = "<group>"; };
-		8D0ADDECB10D4B514F8A13981DDED353 /* Pods-NearbyStarbucksTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NearbyStarbucksTests-resources.sh"; sourceTree = "<group>"; };
+		77EBBE71974871C875B63370AA94D5F4 /* Pods-NearbyFavouritesTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NearbyFavouritesTests-resources.sh"; sourceTree = "<group>"; };
+		7C8706CDA5E4C3B6D036E3B61F1C4E98 /* Pods-NearbyFavourites-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NearbyFavourites-frameworks.sh"; sourceTree = "<group>"; };
+		8FA12649EC6ECF3D646FBB2620F04E6F /* Pods-NearbyFavourites-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NearbyFavourites-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9337A708845AB4F39DF7219AF81003D4 /* Pods-NearbyFavouritesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NearbyFavouritesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		955D3A22EB34AB333524A949DC729F6B /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
-		B5DA8378CD31CF4ECC1B83F04DFCD284 /* Pods-NearbyStarbucksTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NearbyStarbucksTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BA5C1566BA279DCA9B06ADEF0865822B /* libPods-NearbyStarbucks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NearbyStarbucks.a"; path = "libPods-NearbyStarbucks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C149B84B05F84D645321CAD28CCA4F6C /* Pods-NearbyStarbucks-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NearbyStarbucks-resources.sh"; sourceTree = "<group>"; };
+		96360A02A2394D7E30EC6715A0CB1A02 /* Pods-NearbyFavouritesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NearbyFavouritesTests-dummy.m"; sourceTree = "<group>"; };
+		B995DE9D827811168AB3A41A64FA8F1F /* libPods-NearbyFavouritesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NearbyFavouritesTests.a"; path = "libPods-NearbyFavouritesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1C1326F4A6423A860EAC299B9B544C5 /* Pods-NearbyFavourites.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NearbyFavourites.release.xcconfig"; sourceTree = "<group>"; };
+		E1A4F3B0DACFBC6DEBA371B7DE422739 /* Pods-NearbyFavouritesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NearbyFavouritesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F769EDE7CC5A77CDBE3B2309AF3BD5FA /* GooglePlacePicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlacePicker.bundle; path = Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle; sourceTree = "<group>"; };
 		F8567FFA809DD02B36CFB593922A14EA /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
-		F9BB1F6B3D11A499AF9BA780A03468BE /* Pods-NearbyStarbucks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NearbyStarbucks.debug.xcconfig"; sourceTree = "<group>"; };
+		FF0DD8D0DFC1651DABED1D0A0E824CB6 /* Pods-NearbyFavourites.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NearbyFavourites.debug.xcconfig"; sourceTree = "<group>"; };
+		FFD913CA08240712F5891F29E765C231 /* Pods-NearbyFavouritesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NearbyFavouritesTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0E5DC9314532CB8DD7A7A72E83ED6BB9 /* Frameworks */ = {
+		307307899A4A0A3B12876B1ADA5C1B19 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0E9712FB277F869BBB22E02C60D19B6 /* Foundation.framework in Frameworks */,
+				DCCDF545C2A9E52584A43859047D406E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D2218A579CD197A50E39A2929D660CC /* Frameworks */ = {
+		8EC299EA8B7B4F1871E16BFE313747D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79D2052A230711637F4DF173898CA519 /* Foundation.framework in Frameworks */,
+				4D8230B999357BEC7D3B5DC1E147FAC6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +70,45 @@
 			);
 			name = GooglePlaces;
 			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		35F455F42BDA6D838963E4E07DC6EBF2 /* Pods-NearbyFavourites */ = {
+			isa = PBXGroup;
+			children = (
+				8FA12649EC6ECF3D646FBB2620F04E6F /* Pods-NearbyFavourites-acknowledgements.markdown */,
+				4996CFC33ECFFE1881990C7146722AFA /* Pods-NearbyFavourites-acknowledgements.plist */,
+				32172E573EDE9683BFBDC22B2B9B442D /* Pods-NearbyFavourites-dummy.m */,
+				7C8706CDA5E4C3B6D036E3B61F1C4E98 /* Pods-NearbyFavourites-frameworks.sh */,
+				36BAB9458EE4B833E1DE301F5133871B /* Pods-NearbyFavourites-resources.sh */,
+				FF0DD8D0DFC1651DABED1D0A0E824CB6 /* Pods-NearbyFavourites.debug.xcconfig */,
+				D1C1326F4A6423A860EAC299B9B544C5 /* Pods-NearbyFavourites.release.xcconfig */,
+			);
+			name = "Pods-NearbyFavourites";
+			path = "Target Support Files/Pods-NearbyFavourites";
+			sourceTree = "<group>";
+		};
+		4274899CF14F5866EFE4FCF1AC616C0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D3ABE87DDF68F3B65B9D17A1D000D8D /* libPods-NearbyFavourites.a */,
+				B995DE9D827811168AB3A41A64FA8F1F /* libPods-NearbyFavouritesTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EDE9E164B245A03D94E082B61299627 /* Pods-NearbyFavouritesTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1A4F3B0DACFBC6DEBA371B7DE422739 /* Pods-NearbyFavouritesTests-acknowledgements.markdown */,
+				3053B5FF1D74A9E82116B4B72940E3FE /* Pods-NearbyFavouritesTests-acknowledgements.plist */,
+				96360A02A2394D7E30EC6715A0CB1A02 /* Pods-NearbyFavouritesTests-dummy.m */,
+				31B71F85235EA38CCA3A9DD52F6509A2 /* Pods-NearbyFavouritesTests-frameworks.sh */,
+				77EBBE71974871C875B63370AA94D5F4 /* Pods-NearbyFavouritesTests-resources.sh */,
+				9337A708845AB4F39DF7219AF81003D4 /* Pods-NearbyFavouritesTests.debug.xcconfig */,
+				FFD913CA08240712F5891F29E765C231 /* Pods-NearbyFavouritesTests.release.xcconfig */,
+			);
+			name = "Pods-NearbyFavouritesTests";
+			path = "Target Support Files/Pods-NearbyFavouritesTests";
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -95,8 +134,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				C62832EC902B481843EFC870F9D95CC2 /* Pods */,
-				BC5D1A37498F6615659F1EEF86D9FE97 /* Products */,
-				A9E8FA90A11CA1E9A307A1AC068D2F8F /* Targets Support Files */,
+				4274899CF14F5866EFE4FCF1AC616C0F /* Products */,
+				BB26B75A583C1D3257C3290B1024D07A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,21 +187,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A59A060C5F06F72CE1FDD91DBCC40385 /* Pods-NearbyStarbucksTests */ = {
-			isa = PBXGroup;
-			children = (
-				B5DA8378CD31CF4ECC1B83F04DFCD284 /* Pods-NearbyStarbucksTests-acknowledgements.markdown */,
-				06A8672F8A12573DE59E6D05FAC53632 /* Pods-NearbyStarbucksTests-acknowledgements.plist */,
-				056FDB85C18B11CA894E883169630880 /* Pods-NearbyStarbucksTests-dummy.m */,
-				0A5CA2A48DA980F07D0B0EAACD399D85 /* Pods-NearbyStarbucksTests-frameworks.sh */,
-				8D0ADDECB10D4B514F8A13981DDED353 /* Pods-NearbyStarbucksTests-resources.sh */,
-				15DDAA6ADCE8D9C7F777774772239BEB /* Pods-NearbyStarbucksTests.debug.xcconfig */,
-				65A6943655418F3590DBDC5DFD85554F /* Pods-NearbyStarbucksTests.release.xcconfig */,
-			);
-			name = "Pods-NearbyStarbucksTests";
-			path = "Target Support Files/Pods-NearbyStarbucksTests";
-			sourceTree = "<group>";
-		};
 		A70C9D5B5ADE1DDE20CC891BF30AD31D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,28 +195,13 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		A9E8FA90A11CA1E9A307A1AC068D2F8F /* Targets Support Files */ = {
+		BB26B75A583C1D3257C3290B1024D07A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AC4C1E33B2B6AE9475525834A51B4233 /* Pods-NearbyStarbucks */,
-				A59A060C5F06F72CE1FDD91DBCC40385 /* Pods-NearbyStarbucksTests */,
+				35F455F42BDA6D838963E4E07DC6EBF2 /* Pods-NearbyFavourites */,
+				5EDE9E164B245A03D94E082B61299627 /* Pods-NearbyFavouritesTests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		AC4C1E33B2B6AE9475525834A51B4233 /* Pods-NearbyStarbucks */ = {
-			isa = PBXGroup;
-			children = (
-				595956CF84C0757FCC3000A1414742C2 /* Pods-NearbyStarbucks-acknowledgements.markdown */,
-				2CECB3A5D04F7556480EFC847C418A74 /* Pods-NearbyStarbucks-acknowledgements.plist */,
-				80F312A273CE7702F27255930D88ED84 /* Pods-NearbyStarbucks-dummy.m */,
-				597619F797C425A0BF775CE3B522B48E /* Pods-NearbyStarbucks-frameworks.sh */,
-				C149B84B05F84D645321CAD28CCA4F6C /* Pods-NearbyStarbucks-resources.sh */,
-				F9BB1F6B3D11A499AF9BA780A03468BE /* Pods-NearbyStarbucks.debug.xcconfig */,
-				879475241E651927C072687C66729079 /* Pods-NearbyStarbucks.release.xcconfig */,
-			);
-			name = "Pods-NearbyStarbucks";
-			path = "Target Support Files/Pods-NearbyStarbucks";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -201,15 +210,6 @@
 				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BC5D1A37498F6615659F1EEF86D9FE97 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BA5C1566BA279DCA9B06ADEF0865822B /* libPods-NearbyStarbucks.a */,
-				41E75C6BBA67799EDBE25C22907198A9 /* libPods-NearbyStarbucksTests.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		C62832EC902B481843EFC870F9D95CC2 /* Pods */ = {
@@ -254,36 +254,36 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5B727666BD0F70F5AE8832C2A5AAC4B0 /* Pods-NearbyStarbucks */ = {
+		B8688EBC473CCADA48FE9DD544AA2007 /* Pods-NearbyFavourites */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F6941611F4EB9462C71D99E9A9E49C5 /* Build configuration list for PBXNativeTarget "Pods-NearbyStarbucks" */;
+			buildConfigurationList = 73A8D4240CE40EE6181FDD1229E8DF70 /* Build configuration list for PBXNativeTarget "Pods-NearbyFavourites" */;
 			buildPhases = (
-				04FFCF7110C5B64E896880A5D9B0B84F /* Sources */,
-				0E5DC9314532CB8DD7A7A72E83ED6BB9 /* Frameworks */,
+				C27300733304BBA0F7D1C924DB4B719E /* Sources */,
+				8EC299EA8B7B4F1871E16BFE313747D3 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-NearbyStarbucks";
-			productName = "Pods-NearbyStarbucks";
-			productReference = BA5C1566BA279DCA9B06ADEF0865822B /* libPods-NearbyStarbucks.a */;
+			name = "Pods-NearbyFavourites";
+			productName = "Pods-NearbyFavourites";
+			productReference = 6D3ABE87DDF68F3B65B9D17A1D000D8D /* libPods-NearbyFavourites.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		E7C6614183F6D50764D2F2A115C17D5F /* Pods-NearbyStarbucksTests */ = {
+		BFEC3511429F530C4F392C019F969C4A /* Pods-NearbyFavouritesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C226AAAB43F3DA579CFE50D8D5375615 /* Build configuration list for PBXNativeTarget "Pods-NearbyStarbucksTests" */;
+			buildConfigurationList = 6C118F208414D8CE8A944FEA9A03BC74 /* Build configuration list for PBXNativeTarget "Pods-NearbyFavouritesTests" */;
 			buildPhases = (
-				8746E95C3B80141C6D1AAFF1A68ACB53 /* Sources */,
-				6D2218A579CD197A50E39A2929D660CC /* Frameworks */,
+				5AD4C4ECE9A59FFC103CC73DA45BACB1 /* Sources */,
+				307307899A4A0A3B12876B1ADA5C1B19 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-NearbyStarbucksTests";
-			productName = "Pods-NearbyStarbucksTests";
-			productReference = 41E75C6BBA67799EDBE25C22907198A9 /* libPods-NearbyStarbucksTests.a */;
+			name = "Pods-NearbyFavouritesTests";
+			productName = "Pods-NearbyFavouritesTests";
+			productReference = B995DE9D827811168AB3A41A64FA8F1F /* libPods-NearbyFavouritesTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -303,30 +303,30 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = BC5D1A37498F6615659F1EEF86D9FE97 /* Products */;
+			productRefGroup = 4274899CF14F5866EFE4FCF1AC616C0F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B727666BD0F70F5AE8832C2A5AAC4B0 /* Pods-NearbyStarbucks */,
-				E7C6614183F6D50764D2F2A115C17D5F /* Pods-NearbyStarbucksTests */,
+				B8688EBC473CCADA48FE9DD544AA2007 /* Pods-NearbyFavourites */,
+				BFEC3511429F530C4F392C019F969C4A /* Pods-NearbyFavouritesTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		04FFCF7110C5B64E896880A5D9B0B84F /* Sources */ = {
+		5AD4C4ECE9A59FFC103CC73DA45BACB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E91F333C137EC43D01845171B29490A /* Pods-NearbyStarbucks-dummy.m in Sources */,
+				88592174129F5A9D2F237D3981E6F5BD /* Pods-NearbyFavouritesTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8746E95C3B80141C6D1AAFF1A68ACB53 /* Sources */ = {
+		C27300733304BBA0F7D1C924DB4B719E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFB2B6E74FD8615FC90EFC82CE0F1F06 /* Pods-NearbyStarbucksTests-dummy.m in Sources */,
+				DF1C73CB9EB6D155D52403E9164E1D2C /* Pods-NearbyFavourites-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,9 +377,9 @@
 			};
 			name = Debug;
 		};
-		1A37195C597124941A5BE6E9A79E0CF4 /* Release */ = {
+		068B17FA6FFB13A84B62644C3106F0E9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 879475241E651927C072687C66729079 /* Pods-NearbyStarbucks.release.xcconfig */;
+			baseConfigurationReference = D1C1326F4A6423A860EAC299B9B544C5 /* Pods-NearbyFavourites.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -400,19 +400,19 @@
 			};
 			name = Release;
 		};
-		2E8CBF3DF50267842DFA4977E4C10AB1 /* Debug */ = {
+		4262669FC7383166C78F101020F0471D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15DDAA6ADCE8D9C7F777774772239BEB /* Pods-NearbyStarbucksTests.debug.xcconfig */;
+			baseConfigurationReference = FFD913CA08240712F5891F29E765C231 /* Pods-NearbyFavouritesTests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -421,7 +421,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -463,19 +463,19 @@
 			};
 			name = Release;
 		};
-		A99E48FFE1BB0BD8F14B7252AEB563F1 /* Release */ = {
+		9A3A12ADD7C2280DD176367880F121C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65A6943655418F3590DBDC5DFD85554F /* Pods-NearbyStarbucksTests.release.xcconfig */;
+			baseConfigurationReference = FF0DD8D0DFC1651DABED1D0A0E824CB6 /* Pods-NearbyFavourites.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -484,11 +484,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		DD546307C2F2780F4AD0A5946E65CB98 /* Debug */ = {
+		BA6E2E2F0C9A71CB1017846E6B592A15 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9BB1F6B3D11A499AF9BA780A03468BE /* Pods-NearbyStarbucks.debug.xcconfig */;
+			baseConfigurationReference = 9337A708845AB4F39DF7219AF81003D4 /* Pods-NearbyFavouritesTests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -521,20 +521,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F6941611F4EB9462C71D99E9A9E49C5 /* Build configuration list for PBXNativeTarget "Pods-NearbyStarbucks" */ = {
+		6C118F208414D8CE8A944FEA9A03BC74 /* Build configuration list for PBXNativeTarget "Pods-NearbyFavouritesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD546307C2F2780F4AD0A5946E65CB98 /* Debug */,
-				1A37195C597124941A5BE6E9A79E0CF4 /* Release */,
+				BA6E2E2F0C9A71CB1017846E6B592A15 /* Debug */,
+				4262669FC7383166C78F101020F0471D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C226AAAB43F3DA579CFE50D8D5375615 /* Build configuration list for PBXNativeTarget "Pods-NearbyStarbucksTests" */ = {
+		73A8D4240CE40EE6181FDD1229E8DF70 /* Build configuration list for PBXNativeTarget "Pods-NearbyFavourites" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E8CBF3DF50267842DFA4977E4C10AB1 /* Debug */,
-				A99E48FFE1BB0BD8F14B7252AEB563F1 /* Release */,
+				9A3A12ADD7C2280DD176367880F121C6 /* Debug */,
+				068B17FA6FFB13A84B62644C3106F0E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

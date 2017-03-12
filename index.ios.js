@@ -2,6 +2,6 @@ import React from 'react';
 import { AppRegistry } from 'react-native';
 import App from './src/App';
 
-const NearbyStarbucks = () => (<App />);
+const NearbyFavourites = () => (<App />);
 
-AppRegistry.registerComponent('NearbyStarbucks', () => NearbyStarbucks);
+AppRegistry.registerComponent('NearbyFavourites', () => NearbyFavourites);

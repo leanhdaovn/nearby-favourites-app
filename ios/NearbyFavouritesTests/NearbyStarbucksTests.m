@@ -16,11 +16,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React Native!"
 
-@interface NearbyStarbucksTests : XCTestCase
+@interface NearbyFavouritesTests : XCTestCase
 
 @end
 
-@implementation NearbyStarbucksTests
+@implementation NearbyFavouritesTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {
