@@ -1,21 +1,27 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import RNGooglePlaces from 'react-native-google-places';
+import {
+  createChangeLocationStartAction,
+  createChangeLocationSuccessAction,
+  createChangeLocationErrorAction
+} from './state';
 import ActionButton from '../common/ActionButton';
 
-const openSearchModal = (callback) => {
+const openSearchModal = () => dispatch => {
+  dispatch(createChangeLocationStartAction());
   RNGooglePlaces.openAutocompleteModal()
-  .then((place) => {
-    callback(place);
+  .then(place => {
+    dispatch(createChangeLocationSuccessAction({place}))
   })
-  .catch(error => { console.log(error) });  // error is a Javascript Error object
+  .catch(error => { dispatch(createChangeLocationSuccessAction(error)) });
 }
 
-const mapStateToProps = (state, {onPlaceReturn}) => ({
+const mapDispatchToProps = (dispatch) => ({
   title: 'Change Location',
-  onPress: () => openSearchModal(onPlaceReturn)
+  onPress: () => dispatch(openSearchModal())
 });
 
-const ChangeLocationActionButton = connect(mapStateToProps)(ActionButton);
+const ChangeLocationActionButton = connect(null, mapDispatchToProps)(ActionButton);
 
 export default ChangeLocationActionButton;

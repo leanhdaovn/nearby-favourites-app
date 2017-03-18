@@ -3,7 +3,7 @@ import reduceReducers from 'reduce-reducers';
 // import { reducer as formReducer } from 'redux-form';
 
 // import { reducer as userFilterReducer, searchStringPath } from './UserFilter/state';
-// import { changeSuburbReducer } from './SuburbSelect/state';
+import { changeLocationReducer } from './components/ChangeLocationActionButton/state.js';
 // import { usersReducer, suburbsReducer } from './reducers';
 
 const apiReducer = (state, action) => {
@@ -13,5 +13,6 @@ const apiReducer = (state, action) => {
 };
 
 export default combineReducers({
-  api: apiReducer
+  api: apiReducer,
+  selectedLocation: changeLocationReducer
 });
