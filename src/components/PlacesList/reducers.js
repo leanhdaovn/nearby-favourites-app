@@ -5,7 +5,7 @@ import {
   createLoadPlacesErrorAction
 } from './actions';
 
-export const reducers = handleActions({
+const reducers = handleActions({
   [createLoadPlacesStartAction]: (state) => ({
     ...state,
     loadPlacesState: 'started'

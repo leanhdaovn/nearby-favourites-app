@@ -1,12 +1,12 @@
 import { createAction } from 'redux-actions';
 
-export const LOAD_PLACES_ACTION_START = 'nearbyPlaces/LOAD_PLACES_ACTION_START'
-export const LOAD_PLACES_ACTION_SUCCESS = 'nearbyPlaces/LOAD_PLACES_ACTION_SUCCESS'
-export const LOAD_PLACES_ACTION_ERROR = 'nearbyPlaces/LOAD_PLACES_ACTION_ERROR'
+export const LOAD_PLACES_START_ACTION = 'nearbyPlaces/LOAD_PLACES_START_ACTION'
+export const LOAD_PLACES_SUCCESS_ACTION = 'nearbyPlaces/LOAD_PLACES_SUCCESS_ACTION'
+export const LOAD_PLACES_ERROR_ACTION = 'nearbyPlaces/LOAD_PLACES_ERROR_ACTION'
 
-export const createLoadPlacesStartAction = createAction(LOAD_PLACES_ACTION_START);
-export const createLoadPlacesSuccessAction = createAction(LOAD_PLACES_ACTION_SUCCESS);
-export const createLoadPlacesErrorAction = createAction(LOAD_PLACES_ACTION_ERROR);
+export const createLoadPlacesStartAction = createAction(LOAD_PLACES_START_ACTION);
+export const createLoadPlacesSuccessAction = createAction(LOAD_PLACES_SUCCESS_ACTION);
+export const createLoadPlacesErrorAction = createAction(LOAD_PLACES_ERROR_ACTION);
 
 let placeCache = {};
 
@@ -32,7 +32,7 @@ const loadPlaces = (lat, lng, dispatch) => {
 };
 
 export const loadPlacesNearby = location => dispatch => {
-  dispatch(createLoadPlacesStartAction);
+  dispatch(createLoadPlacesStartAction());
   if (location) {
     loadPlaces(location.latitude, location.longitude, dispatch);
   } else {
@@ -40,7 +40,7 @@ export const loadPlacesNearby = location => dispatch => {
       (position) => {
         loadPlaces(position.coords.latitude, position.coords.longitude, dispatch);
       },
-      (error) => dispatch(createLoadPlacesErrorAction, { error }),
+      (error) => dispatch(createLoadPlacesErrorAction({ error })),
       {enableHighAccuracy: true, timeout: 20000, maximumAge: 1000}
     );
   }
