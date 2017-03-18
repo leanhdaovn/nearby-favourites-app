@@ -4,7 +4,7 @@ import reduceReducers from 'reduce-reducers';
 
 // import { reducer as userFilterReducer, searchStringPath } from './UserFilter/state';
 import { changeLocationReducer } from './components/ChangeLocationActionButton/state';
-import nearbyPlacesReducer from './components/PlacesListView/reducers';
+import nearbyPlacesReducer from './components/PlacesList/reducers';
 // import { usersReducer, suburbsReducer } from './reducers';
 
 const apiReducer = (state, action) => {

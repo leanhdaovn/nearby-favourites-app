@@ -46,7 +46,7 @@ export const loadPlacesNearby = location => dispatch => {
   }
 };
 
-export default actions = {
+export default {
   loadPlacesNearby,
   createLoadPlacesStartAction,
   createLoadPlacesSuccessAction,
