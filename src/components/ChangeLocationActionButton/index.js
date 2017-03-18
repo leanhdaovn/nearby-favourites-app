@@ -5,7 +5,7 @@ import {
   createChangeLocationStartAction,
   createChangeLocationSuccessAction,
   createChangeLocationErrorAction
-} from './state';
+} from './actions';
 import ActionButton from '../common/ActionButton';
 
 const openSearchModal = () => dispatch => {

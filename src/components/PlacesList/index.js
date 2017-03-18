@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import ListViewWithLoading from '../ListViewWithLoading';
 import { loadPlacesNearby } from './actions';
 import { placesSelector } from './selectors';
-import { locationSelector } from '../ChangeLocationActionButton/state';
+import { selectedLocationSelector } from '../ChangeLocationActionButton/selectors';
 
 const PlacesListView = connect(
   (state) => ({
@@ -16,7 +16,7 @@ const PlacesListView = connect(
 
 const PlacesList = connect(
   (state) => ({
-    location: locationSelector(state)
+    location: selectedLocationSelector(state)
   })
 )(PlacesListView);
 

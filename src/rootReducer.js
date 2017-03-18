@@ -1,11 +1,6 @@
 import { combineReducers } from 'redux';
-import reduceReducers from 'reduce-reducers';
-// import { reducer as formReducer } from 'redux-form';
-
-// import { reducer as userFilterReducer, searchStringPath } from './UserFilter/state';
-import { changeLocationReducer } from './components/ChangeLocationActionButton/state';
+import changeLocationReducer from './components/ChangeLocationActionButton/reducers';
 import nearbyPlacesReducer from './components/PlacesList/reducers';
-// import { usersReducer, suburbsReducer } from './reducers';
 
 const apiReducer = (state, action) => {
   return state || {
@@ -15,6 +10,6 @@ const apiReducer = (state, action) => {
 
 export default combineReducers({
   api: apiReducer,
-  selectedLocation: changeLocationReducer,
+  location: changeLocationReducer,
   nearbyPlaces: nearbyPlacesReducer
 });
