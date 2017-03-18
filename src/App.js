@@ -5,7 +5,7 @@ import configureStore from './configureStore';
 import reducer from './rootReducer';
 import StatusBar from './components/StatusBar';
 import ChangeLocationActionButton from './components/ChangeLocationActionButton';
-import PlacesListView from './components/PlacesListView';
+import PlacesList from './components/PlacesList';
 import styles from './styles'
 
 const store = configureStore();
@@ -15,7 +15,7 @@ const App = () => (
     <View>
       <StatusBar title="Nearby Starbucks Coffee" />
       <ChangeLocationActionButton />
-      <PlacesListView/>
+      <PlacesList />
     </View>
   </Provider>
 )

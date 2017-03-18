@@ -1,13 +1,14 @@
 import { createAction, handleActions } from 'redux-actions';
 import reduceReducers from 'reduce-reducers';
-import { get } from 'lodash/fp'
+// import { get } from 'lodash/fp'
 import RNGooglePlaces from 'react-native-google-places';
 
-const CHANGE_LOCATION_START = 'Location/CHANGE_LOCATION_START';
-const CHANGE_LOCATION_SUCCESS = 'Location/CHANGE_LOCATION_SUCCESS';
-const CHANGE_LOCATION_ERROR = 'Location/CHANGE_LOCATION_ERROR';
+const CHANGE_LOCATION_START = 'selectedLocation/CHANGE_LOCATION_START';
+const CHANGE_LOCATION_SUCCESS = 'selectedLocation/CHANGE_LOCATION_SUCCESS';
+const CHANGE_LOCATION_ERROR = 'selectedLocation/CHANGE_LOCATION_ERROR';
 
-export const locationSelector = get('location');
+export const locationSelector = state => state.selectedLocation.location;
+
 export const createChangeLocationStartAction = createAction(CHANGE_LOCATION_START);
 export const createChangeLocationSuccessAction = createAction(CHANGE_LOCATION_SUCCESS);
 export const createChangeLocationErrorAction = createAction(CHANGE_LOCATION_ERROR);

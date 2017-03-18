@@ -15,7 +15,7 @@ const onPlacePress = (place) => {
   });
 };
 
-const mapStateToProps = (state, {onPlacePress}) => ({
+const mapStateToProps = (state, {place}) => ({
     onPress: () => onPlacePress(place)
 });
 

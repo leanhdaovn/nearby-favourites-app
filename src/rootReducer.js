@@ -3,7 +3,8 @@ import reduceReducers from 'reduce-reducers';
 // import { reducer as formReducer } from 'redux-form';
 
 // import { reducer as userFilterReducer, searchStringPath } from './UserFilter/state';
-import { changeLocationReducer } from './components/ChangeLocationActionButton/state.js';
+import { changeLocationReducer } from './components/ChangeLocationActionButton/state';
+import { nearbyPlacesReducer } from './components/PlacesListView/state';
 // import { usersReducer, suburbsReducer } from './reducers';
 
 const apiReducer = (state, action) => {
@@ -14,5 +15,6 @@ const apiReducer = (state, action) => {
 
 export default combineReducers({
   api: apiReducer,
-  selectedLocation: changeLocationReducer
+  selectedLocation: changeLocationReducer,
+  nearbyPlaces: nearbyPlacesReducer
 });
